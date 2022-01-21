@@ -2,6 +2,8 @@
 [Link to Hosted Website](https://frozen-dawn-51894.herokuapp.com/) <br>
 [Link to Website GitHub Repoitory](https://github.com/KJafro/COM_519_Kurt) <br>
 
+![Homepage](/public/images/index.PNG)
+
 ## Introduction
 Atletas is a group of 3 local Spanish doctors who have come together to gather data from friends and family as 'Entries' to prove the innaccuracy of BMI (Body Mass Index). The reason for this project is because
 BMI can be misleading which can possibly lead to eating disorders for healthy normal weight people. Normally BMI calculators focus on your height and weight whereas the information from this application would 
