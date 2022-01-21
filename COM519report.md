@@ -7,7 +7,7 @@ Atletas is a group of 3 local Spanish doctors who have come together to gather d
 BMI can be misleading which can possibly lead to eating disorders for healthy normal weight people. Normally BMI calculators focus on your height and weight whereas the information from this application would 
 gather more important factors which will be explained in the Database Design. 
 
-![alt text](System-diagram.png)
+![alt text](reg.png)
 
 ## System Overview
 Due to the nature of the project the system will be a basic design, the user will be able to register using an e-mail and password and they will be able to add new 'Entries' which will then allow the user to
