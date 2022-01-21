@@ -15,11 +15,13 @@ Due to the nature of the project the system will be a basic design using MVC Fra
 The user will be able to register using an e-mail and password and they will be able to add new Entries. 
 ![Register](/public/images/reg.PNG)
 
+![CreateEntry](/public/images/createentry.PNG)
+
 Once logged in the user will be allowed to
 add information such as the Full Name, Gender, Height, Weight, Bodyfat and the BMI - then the user will be able to 'Select Profile' which shows on the system which specific doctor added the entry. 
 
-![CreateEntry](/public/images/entries1.PNG)
-![CreateEntry](/public/images/entries2.PNG)
+![Entries](/public/images/entries1.PNG)
+![Entries_](/public/images/entries2.PNG)
 
 After adding an entry the user can view the 'Entries' page which shows the different entries the docots have submitted to the database with information such as 'Name, Gender, Weight, Height, Bodyfat, BMI, Added by'. The user can then decide whether they want to delete specific records by pressing the 'Delete' button. The user is also able to look at previous entries by choosing a different page number.
 
