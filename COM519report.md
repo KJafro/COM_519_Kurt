@@ -33,6 +33,8 @@ As the website/database was following a basic design I decided to use Bootstrap 
 
 The registration and login forms include validation which brings up error depending on the problems such as Incorrect E-mail/Password, it also alerts the user that the webpage is loading after logging in and would the user would need to press 'OK' to continue. The 'Entries' page has the ability to view the different pages using pagination.
 
+I thought about including the ability to add new profiles (doctors) but I feel this was unnecessary and just included the 3 doctors.
+
 ## Database Design
 In the database there are 4 tables which include bodyfat, entries, profiles, users. 
 ![!bmicalc](/public/images/collections.PNG)
@@ -46,10 +48,14 @@ The users table features id(unique ID), email, password and when the record was 
 MongoDB offers flexibilty and accessibility as it allows the user to search for specific records using the filter option. Below I have filtered 'bmi' and want to view all the records with the bmi of '20' in the 'Entries' record - once submitted this gives me 19 records out of the 50 available with the 'bmi' specific as '20'. This feature allows the user to be able to filter all the records available which will save alot of time for the user. MongoDB also includes 'MONGOSH' which is a command prompt for their application, it offers many features which allow the user to delete/rename collections and you can also filter out the records and delete specific records matching the filter provided.
 ![!filter](/public/images/filter1.PNG)
 
+## Security and Scalability
+When the user registers the password will go through a hash algorithm which then stores the password in the database, so if someone logs into the database through MongoDB the user won't be able to see the password. This can also be used to protect from bruteforce attacks which will make it much harder to fully crack the passwords. 
+
+As this project is for a small group of people and quite basic there isn't much to do scalability wise other than adding features that you can sort records which would make it much easier rather than going into MongoDB.
+
+## Conclusion and Reflection
+Even though the database is basic I feel it meets the requirements for the project as it allows the doctors to add and delete as many records as they want, then having the ability to search and filter for specific keywords it is a good project to be able to collect the data they need. To improve this project I feel it would need a search option in the project rather than going through MongoDB and also the ability to sort records by ascending/descending. This project would give a much better understanding of health as it features more factors.
+
+Although I used the template as a base starting point and also used Bootstrap with it I still feel like I have learnt alot in this module and as I have never used node.js but I am much more confident and feel I now have a good understanding of it.
 
 
-
-
-
-mongodb search function
-important factors gender/body fat %
