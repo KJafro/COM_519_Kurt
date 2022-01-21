@@ -33,6 +33,11 @@ As the website/database was following a basic design I decided to use Bootstrap 
 
 The registration and login forms include validation which brings up error depending on the problems such as Incorrect E-mail/Password, it also alerts the user that the webpage is loading after logging in and would the user would need to press 'OK' to continue. The 'Entries' page has the ability to view the different pages using pagination.
 
+## Database Design
+In the database there are 4 tables which include bodyfat, entries, profiles, users. 
+![!bmicalc](/public/images/collections.PNG)
+
+
 
 
 
