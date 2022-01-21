@@ -27,6 +27,9 @@ After adding an entry the user can view the 'Entries' page which shows the diffe
 ![Entries](/public/images/entries1.PNG)
 ![Entries_](/public/images/entries2.PNG)
 
+## Key Design Decisions
+As the website/database was following a basic design I decided to use Bootstrap instead of CSS as this would save alot of time with the design process and would give me a good template to work from. I also decided to include a simple BMI calculator which works with limited amount of data which  
+
 
 
 mongodb search function
