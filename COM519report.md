@@ -39,6 +39,9 @@ In the database there are 4 tables which include bodyfat, entries, profiles, use
 
 The Entries table features the gender, title (name of the profile), profile_name (doctor), height, weight, BMI, bodyfat and it also shows when the record was created/updated. 
 
+The Profiles table features the name (doctors name), BMI, gender, conumber (contact number) and when the record was created/updated.
+
+
 
 
 
