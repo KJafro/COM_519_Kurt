@@ -37,6 +37,8 @@ The registration and login forms include validation which brings up error depend
 In the database there are 4 tables which include bodyfat, entries, profiles, users. 
 ![!bmicalc](/public/images/collections.PNG)
 
+The Entries table features the gender, title (name of the profile), profile_name (doctor), height, weight, BMI, bodyfat and it also shows when the record was created/updated. 
+
 
 
 
