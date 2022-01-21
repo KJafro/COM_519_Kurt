@@ -41,6 +41,11 @@ The Entries table features the gender, title (name of the profile), profile_name
 
 The Profiles table features the name (doctors name), BMI, gender, conumber (contact number) and when the record was created/updated.
 
+The users table features id(unique ID), email, password and when the record was created/updated.
+
+MongoDB offers flexibilty and accessibility as it allows the user to search for specific records using the filter option.
+![!filter](/public/images/filter1.PNG)
+
 
 
 
