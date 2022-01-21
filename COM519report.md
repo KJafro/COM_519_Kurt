@@ -2,7 +2,6 @@
 [Link to Hosted Website](https://frozen-dawn-51894.herokuapp.com/) <br>
 [Link to Website GitHub Repoitory](https://github.com/KJafro/COM_519_Kurt) <br>
 
-![Homepage](/public/images/index.PNG)
 
 ## Introduction
 Atletas is a group of 3 local Spanish doctors who have come together to gather data from friends and family as 'Entries' to prove the innaccuracy of BMI (Body Mass Index). The reason for this project is because
@@ -30,6 +29,7 @@ After adding an entry the user can view the 'Entries' page which shows the diffe
 ## Key Design Decisions
 As the website/database was following a basic design I decided to use Bootstrap instead of CSS as this would save alot of time with the design process and would give me a good template to work from. I also decided to include a simple BMI calculator which works with limited amount of data which shows how unreliable it can be.  
 
+!bmicalc](/public/images/bmicalc.PNG)
 
 
 mongodb search function
