@@ -17,6 +17,7 @@ The user will be able to register using an e-mail and password and they will be 
 
 Once logged in the user will be allowed to
 add information such as the Full Name, Gender, Height, Weight, Bodyfat and the BMI - then the user will be able to 'Select Profile' which shows on the system which specific doctor added the entry. 
+
 ![CreateEntry](/public/images/createentry.PNG)
 
 
