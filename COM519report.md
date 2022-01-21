@@ -43,10 +43,9 @@ The Profiles table features the name (doctors name), BMI, gender, conumber (cont
 
 The users table features id(unique ID), email, password and when the record was created/updated.
 
-MongoDB offers flexibilty and accessibility as it allows the user to search for specific records using the filter option. Below I have filtered 'bmi' and want to view all the records with the bmi of '20' in the 'Entries' record - once submitted this gives me 19 records out of the 50 available with the 'bmi' specific as '20'. This feature allows the user to be able to filter all the records available which will save alot of time for the user.
+MongoDB offers flexibilty and accessibility as it allows the user to search for specific records using the filter option. Below I have filtered 'bmi' and want to view all the records with the bmi of '20' in the 'Entries' record - once submitted this gives me 19 records out of the 50 available with the 'bmi' specific as '20'. This feature allows the user to be able to filter all the records available which will save alot of time for the user. MongoDB also includes 'MONGOSH' which is a command prompt for their application, it offers many features which allow the user to delete/rename collections and you can also filter out the records and delete specific records matching the filter provided.
 ![!filter](/public/images/filter1.PNG)
 
-MongoDB includes 'MONGOSH' which is a command prompt for their application, it offers many features which allow the user to delete/rename collections and you can also filter out the records and delete specific records matching the filter provided.
 
 
 
