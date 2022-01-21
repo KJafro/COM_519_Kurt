@@ -1,0 +1,26 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-md-center">
+    <i class="bi bi-activity"></i>
+    <div class="navbar">
+      <div class="navbar-nav">
+        <a class="nav-link active" href="/"><b><p style="color:rgb(0, 0, 255)">Home</p></b>
+        <span class="sr-only">(current)</span>
+        </a>
+        <a class="nav-link" href="about"> <p style="color:blue">About</p></a>
+        <a class="nav-link" href="profiles"> <p style="color:blue">Profiles</p></a>
+        <a class="nav-link" href="entries"> <p style="color:blue">Entries</p></a>
+        <% if(user) { %>
+
+        <a class="nav-link" href="create-entries"> <p style="color:blue">Add Entry</p></a>
+        <a class="nav-link" href="logout"> <p style="color:blue"><%= user.email %> (Logout)</p></a> <%
+        }%> <% if(!user) { %>
+        <a class="nav-link" href="login"><p style="color:blue">Login</p></a>
+        <a class="nav-link" href="join"><p style="color:blue">Register</p></a>
+        <% } %>
+      </div>
+    </div>
+    <i class="bi bi-activity"></i>
+  </nav>
+</header>
+
+
