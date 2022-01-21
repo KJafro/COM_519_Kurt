@@ -12,12 +12,12 @@ gather more important factors which will be explained in the Database Design.
 ## System Overview
 Due to the nature of the project the system will be a basic design using MVC Framework which seperates the application into the different components. The website focuses on a minimal design with the homepage featuring a basic BMI calculator which ask for the users height and weight and depending on the result it will shows whether the user how healthy the individual is - this isn't enough information to determine whether the individual is healthy. 
 
-The user will be able to register using an e-mail and password and they will be able to add new 'Entries' which will then allow the user to
-add information such as the Full Name, Gender, Height, Weight, Bodyfat and the BMI - then the user will be able to 'Select Profile' which shows on the system which specific doctor added the entry. 
-
+The user will be able to register using an e-mail and password and they will be able to add new Entries. 
 ![Register](/public/images/reg.PNG)
 
-
+Once logged in the user will be allowed to
+add information such as the Full Name, Gender, Height, Weight, Bodyfat and the BMI - then the user will be able to 'Select Profile' which shows on the system which specific doctor added the entry. 
+![CreateEntry](/public/images/createentry.PNG)
 
 
 mongodb search function
